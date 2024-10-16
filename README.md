@@ -11,24 +11,7 @@ The collection is tested and supported with: `ansible >= 2.10`
 Before using the Grafana collection, you need to install it using the below command:
 
 ```shell
-ansible-galaxy collection install grafana.grafana
-```
-
-You can also include it in a `requirements.yml` file and install it via ansible-galaxy collection install -r `requirements.yml`, using the format:
-
-```yaml
----
-collections:
-  - name: grafana.grafana
-```
-
-A specific version of the collection can be installed by using the version keyword in the `requirements.yml` file:
-
-```yaml
----
-collections:
-  - name: grafana.grafana
-    version: 1.0.0
+ansible-galaxy collection install my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz
 ```
 
 ## Roles included in the collection
