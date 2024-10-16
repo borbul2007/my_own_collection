@@ -1,0 +1,5 @@
+- name: Create file
+  hosts: localhost
+  tags: create
+  roles:
+    - create-file
